@@ -50,7 +50,7 @@ const controller = {
 		}
 		products.push(newProduct);
 		WhiteJson(products)
-		res.redirec("/products")
+		res.redirect("/products")
 	},
 
 	// Update - Form to edit
